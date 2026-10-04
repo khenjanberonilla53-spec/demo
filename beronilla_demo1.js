@@ -1,6 +1,7 @@
 let studentIgn = "Kenn Faiyazzz";
 let studentAddress = "Awang";
 let studentAge = 21;
+let studentId = 774489896;
 
 var mainheroes = ["FANNY", "LING","LANCELOT"];
 var role = ["JUNGLE", "GOLDLANER", "EXPLANER"];
@@ -9,6 +10,7 @@ var achievements = ["GLOBAL NO.1 FANNY" , "SLAYER 8", "MYTHICAL IMMORTAL 1000STA
 console.log("STUDENT IGN:", studentIgn);
 console.log ("ADDRESS:", studentAddress);
 console.log("AGE:", studentAge);
+console.log("ID:", studentId);
 
 console.log("\nMAINHEROES:");
 for (var j = 0; j < mainheroes.length; j++){
