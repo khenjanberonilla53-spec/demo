@@ -1,6 +1,9 @@
+//ENCAPSULATION
+
 class Student {
     #name;
     #age;
+
     constructor(name, age) {
         this.#name = name;
         this.#age = age;
@@ -13,7 +16,15 @@ class Student {
     setAge(newAge) {
         this.#age = newAge;
     }
+
+    getAge() {
+        return this.#age;
+    }
 }
 
 const student = new Student("Khenjan", 21);
+
 student.setAge(21);
+
+console.log(student.getName());
+console.log(student.getAge());
