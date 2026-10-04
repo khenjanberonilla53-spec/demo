@@ -1,23 +1,15 @@
-class Car {
-    drive() {
-        throw new Error("Method must be implemented");
+class ATM {
+    withdraw(amount) {
+        console.log("Processing withdrawal...");
+        this.#checkBalance();
+        console.log("You withdrew ₱" + amount);
+    }
+
+    #checkBalance() {
+        console.log("Balance checked.");
     }
 }
 
-class Sedan extends Car {
-    drive() {
-        this.#startEngine();
-        this.#moveWheels();
-    }
+const atm = new ATM();
 
-    #startEngine() {
-        console.log("Engine started.");
-    }
-
-    #moveWheels() {
-        console.log("Wheels moving.");
-    }
-}
-
-const car = new Sedan();
-car.drive();
+atm.withdraw(500);
