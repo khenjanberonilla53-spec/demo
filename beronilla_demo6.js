@@ -1,4 +1,4 @@
-//AGE CHECKER
+// AGE CHECKER
 
 const readline = require("readline");
 
